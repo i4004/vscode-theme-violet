@@ -1,0 +1,40 @@
+{
+	"name": "vscode-theme-violet",
+	"displayName": "Violet Theme",
+	"description": "Visual Studio Code dark theme.",
+	"version": "1.0.0",
+	"publisher": "Alexanderius",
+	"license": "GPLv3",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#2d2d2d",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/i4004/vscode-theme-violet"
+	},
+	"bugs": {
+		"url": "https://github.com/i4004/vscode-theme-violet/issues"
+	},
+	"engines": {
+		"vscode": "^1.42.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"violet",
+		"theme",
+		"dark"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Violet",
+				"uiTheme": "vs-dark",
+				"path": "./themes/violet.json"
+			}
+		]
+	}
+}
